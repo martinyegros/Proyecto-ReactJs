@@ -1,0 +1,10 @@
+@import './base/reset';
+@import './base/typo';
+@import './utilities/mixins';
+@import './utilities/variables';
+
+//componentes
+
+@import './components/CartWidget/CartWidget';
+@import './components/ItemListContainer/ItemListContainer';
+@import './components/NavBar/NavBar';
