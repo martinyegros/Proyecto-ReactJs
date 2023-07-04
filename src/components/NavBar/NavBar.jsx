@@ -1,4 +1,5 @@
 import { CartWidget } from "../CartWidget/CartWidget.jsx";
+import logoMarca from "../../assets/Marveg.jpg";
 
 export const NavBar = () => {
 
@@ -6,7 +7,7 @@ export const NavBar = () => {
         <header className="header">
             <div className="header-container">
                 <div className="header-logo">
-                    <img src="/Marveg.jpg" alt="Logo de la marca" />
+                    <img src={logoMarca} alt="Logo de la marca" />
                 </div>
 
                 <nav className="navbar">
