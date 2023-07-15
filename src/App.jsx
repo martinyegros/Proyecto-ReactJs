@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <ItemListContainer productos={"Aquí van los productos"} />
+      <ItemListContainer />
     </div>
   )
 }

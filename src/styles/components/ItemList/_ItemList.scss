@@ -11,14 +11,10 @@
         color: #2f5432;
         font-family: "Roboto", sans-serif;
     }
-    p {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 100%;
-        line-height: 100%;
-        text-align: center;
-        color: #5e854a;
-        font-family: "Roboto", sans-serif;
+    .row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
     }
 }
 

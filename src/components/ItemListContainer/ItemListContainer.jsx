@@ -1,12 +1,24 @@
+import { useEffect, useState } from "react";
+import { pedirDatos } from "../../helpers/pedirDatos";
+import { ItemList } from "../ItemList.jsx/ItemList";
 
-const ItemListContainer = ({productos}) => {
+const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+    console.log(productos)
+
+    useEffect(() => {
+        pedirDatos()
+            .then((res) => {
+                setProductos(res)
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+    }, [])
 
     return (
-        <div className="catalogo-container">
-            <h1>Lista de productos</h1>
-            <hr />
-
-            <p>{productos}</p>
+        <div>
+            <ItemList productos={productos}/>
         </div>
     )
 };
