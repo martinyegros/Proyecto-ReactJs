@@ -154,70 +154,70 @@
         "categoria": "Harinas"
     },
     {
-        "id": 22,
+        "id": 23,
         "nombre": "Harina de Quinoa sin gluten 400g",
         "precio": 700,
         "img": "/harina-quinoa.jpg",
         "categoria": "Harinas"
     },
     {
-        "id": 23,
+        "id": 24,
         "nombre": "Hummus de Garbanzos sin TACC 180g",
         "precio": 1000,
         "img": "/hummus-garbanzo.jpg",
         "categoria": "Almacen"
     },
     {
-        "id": 24,
+        "id": 25,
         "nombre": "Jamon Mortadela 100% Vegano 200g",
         "precio": 800,
         "img": "/jamon.jpg",
         "categoria": "Congelados"
     },
     {
-        "id": 25,
+        "id": 26,
         "nombre": "Mayonesa Vegana de Albahaca 270g",
         "precio": 700,
         "img": "/mayo-albahaca.png",
         "categoria": "Aderezos"
     },
     {
-        "id": 26,
+        "id": 27,
         "nombre": "Mayonesa Vegana de Remolacha 270g",
         "precio": 700,
         "img": "/mayo-remolacha.jpg",
         "categoria": "Aderezos"
     },
     {
-        "id": 27,
+        "id": 28,
         "nombre": "Mayonesa Vegana de Zanahoria 270g",
         "precio": 700,
         "img": "/mayo-zanahoria.jpg",
         "categoria": "Aderezos"
     },
     {
-        "id": 28,
+        "id": 29,
         "nombre": "Mayonesa de Soja sin huevo 280g",
         "precio": 600,
         "img": "/mayonesa-soja.jpg",
         "categoria": "Aderezos"
     },
     {
-        "id": 29,
+        "id": 30,
         "nombre": "Not Mayo original sin huevo 350g",
         "precio": 800,
         "img": "/mayonesa.jpg",
         "categoria": "Aderezos"
     },
     {
-        "id": 30,
+        "id": 31,
         "nombre": "Medallón Legumbres 100% vegano 4u 90g",
         "precio": 1200,
         "img": "/medallon-garbanzo.jpg",
         "categoria": "Congelados"
     },
     {
-        "id": 31,
+        "id": 32,
         "nombre": "Medallón de Lentejas sin TACC 4u 500g",
         "precio": 900,
         "img": "/medallon-lenteja.jpg",

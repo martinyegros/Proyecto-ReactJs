@@ -4,21 +4,24 @@ import { ItemList } from "../ItemList.jsx/ItemList";
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
-    console.log(productos)
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         pedirDatos()
-            .then((res) => {
-                setProductos(res)
-            })
-            .catch((error) => {
-                console.log(error)
+            .then(r => setProductos(r))
+            .catch(e => console.log(error))
+            .finally(() => {
+                setLoading(false)
             })
     }, [])
 
     return (
         <div>
-            <ItemList productos={productos}/>
+            {
+                loading
+                ? <h2>Cargando...</h2>
+                : <ItemList productos={productos}/>
+            }    
         </div>
     )
 };
