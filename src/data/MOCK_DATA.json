@@ -4,223 +4,419 @@
         "nombre": "Aceitunas descarozadas 900g",
         "precio": 900,
         "img": "/aceitunas-descarozadas.jpg",
-        "categoria": "Almacen"
+        "category": "Almacen"
     },
     {
         "id": 2,
         "nombre": "Castañas de Cajú saladas y tostadas 100g",
-        "precio": 1000,
+        "precio": 600,
         "img": "/castanas-caju.jpg",
-        "categoria": "Snacks"
+        "category": "Snacks"
     },
     {
         "id": 3,
         "nombre": "Chorizo Veganuel 100% Vegano 6u 400g",
         "precio": 2100,
         "img": "/chorizo-soja.jpg",
-        "categoria": "Congelados"
+        "category": "Congelados"
     },
     {
         "id": 4,
         "nombre": "Chorizo Parrillero 100% Vegano 3u 200g",
         "precio": 1500,
         "img": "/chorizo.jpg",
-        "categoria": "Congelados"
+        "category": "Congelados"
     },
     {
         "id": 5,
         "nombre": "Fainá Vegano sin gluten de Garbanzo 200g ",
         "precio": 700,
         "img": "/faina.jpg",
-        "categoria": "Snacks"
+        "category": "Snacks"
     },
     {
         "id": 6,
         "nombre": "Falafel Arvejas y Auinoa Vegano 200g",
         "precio": 1200,
         "img": "/falafel-arvejas.png",
-        "categoria": "Congelados"
+        "category": "Congelados"
     },
     {
         "id": 7,
         "nombre": "Pasta de Chia, Quinoa Roja, Amaranto 500g",
         "precio": 600,
         "img": "/fideos-chia.jpg",
-        "categoria": "Pastas"
+        "category": "Pastas"
     },
     {
         "id": 8,
         "nombre": "Fusilli seco de arroz y Espinaca 270g",
         "precio": 800,
         "img": "/fideos-espinaca.jpeg",
-        "categoria": "Pastas"
+        "category": "Pastas"
     },
     {
         "id": 9,
         "nombre": "Fusilli de Semola Integral 500g",
         "precio": 600,
         "img": "/fideos-integral.png",
-        "categoria": "Pastas"
+        "category": "Pastas"
     },
     {
         "id": 10,
         "nombre": "Fusilli harina de Lenteja 250g ",
         "precio": 1200,
         "img": "/fideos-lenteja.jpg",
-        "categoria": "Pastas"
+        "category": "Pastas"
     },
     {
         "id": 11,
         "nombre": "Fusilli seco de arroz con Morrón 270g",
         "precio": 800,
-        "img": "fideos-morron.jpeg",
-        "categoria": "Pastas"
+        "img": "/fideos-morron.jpeg",
+        "category": "Pastas"
     },
     {
         "id": 12,
         "nombre": "Pasta con Quinoa y Amaranto 500g",
         "precio": 600,
         "img": "/fideos-quinoa.jpg",
-        "categoria": "Pastas"
+        "category": "Pastas"
     },
     {
         "id": 13,
         "nombre": "Fusilli seco de arroz con Tomate y Ajo 270g",
         "precio": 800,
         "img": "/fideos-tomate.jpeg",
-        "categoria": "Pastas"
+        "category": "Pastas"
     },
     {
         "id": 14,
         "nombre": "Galletas de arroz Vegano 18 u 90g",
-        "precio": 700,
+        "precio": 500,
         "img": "/galleta-arroz.jpg",
-        "categoria": "Snacks"
+        "category": "Snacks"
     },
     {
         "id": 15,
         "nombre": "Galletas de Cúrcuma y Sésamo 140g",
-        "precio": 900,
+        "precio": 700,
         "img": "/galleta-curcuma.jpg",
-        "categoria": "Snacks"
+        "category": "Snacks"
     },
     {
         "id": 16,
         "nombre": "Galletas de arroz Integrales 30g",
-        "precio": 600,
+        "precio": 450,
         "img": "/galletas-aromaticas.jpg",
-        "categoria": "Snacks"
+        "category": "Snacks"
     },
     {
         "id": 17,
-        "nombre": "Galletitas con Limón y Frutos rojos 150g",
-        "precio": 800,
-        "img": "/galletitas-limon-frutosrojos.jpg",
-        "categoria": "Snacks"
+        "nombre": "Galletitas Chocolate y Maní 250g",
+        "precio": 500,
+        "img": "/galletitas-chocolate.jpg",
+        "category": "Snacks"
     },
     {
         "id": 18,
         "nombre": "Garbanzo en conserva 250g ",
         "precio": 900,
         "img": "/garbanzos-conserva.jpg",
-        "categoria": "Almacen"
+        "category": "Almacen"
     },
     {
         "id": 19,
         "nombre": "Granola Almendras Arandanos 250g",
         "precio": 600,
         "img": "/granola.jpg",
-        "categoria": "Snacks"
+        "category": "Snacks"
     },
     {
         "id": 20,
         "nombre": "Harina natural de Avena 500g",
         "precio": 800,
         "img": "/harina-avena.jpg",
-        "categoria": "Harinas"
+        "category": "Harinas"
     },
     {
         "id": 21,
         "nombre": "Harina natural de Garbanzo 500g",
         "precio": 800,
         "img": "/harina-garbanzo.jpg",
-        "categoria": "Harinas"
+        "category": "Harinas"
     },
     {
         "id": 22,
         "nombre": "Harina Integral de trigo fina 1kg",
         "precio": 1200,
         "img": "/harina-integral.jpg",
-        "categoria": "Harinas"
+        "category": "Harinas"
     },
     {
         "id": 23,
         "nombre": "Harina de Quinoa sin gluten 400g",
         "precio": 700,
         "img": "/harina-quinoa.jpg",
-        "categoria": "Harinas"
+        "category": "Harinas"
     },
     {
         "id": 24,
         "nombre": "Hummus de Garbanzos sin TACC 180g",
         "precio": 1000,
         "img": "/hummus-garbanzo.jpg",
-        "categoria": "Almacen"
+        "category": "Almacen"
     },
     {
         "id": 25,
         "nombre": "Jamon Mortadela 100% Vegano 200g",
         "precio": 800,
         "img": "/jamon.jpg",
-        "categoria": "Congelados"
+        "category": "Congelados"
     },
     {
         "id": 26,
         "nombre": "Mayonesa Vegana de Albahaca 270g",
         "precio": 700,
         "img": "/mayo-albahaca.png",
-        "categoria": "Aderezos"
+        "category": "Aderezos"
     },
     {
         "id": 27,
         "nombre": "Mayonesa Vegana de Remolacha 270g",
         "precio": 700,
         "img": "/mayo-remolacha.jpg",
-        "categoria": "Aderezos"
+        "category": "Aderezos"
     },
     {
         "id": 28,
         "nombre": "Mayonesa Vegana de Zanahoria 270g",
         "precio": 700,
         "img": "/mayo-zanahoria.jpg",
-        "categoria": "Aderezos"
+        "category": "Aderezos"
     },
     {
         "id": 29,
         "nombre": "Mayonesa de Soja sin huevo 280g",
         "precio": 600,
         "img": "/mayonesa-soja.jpg",
-        "categoria": "Aderezos"
+        "category": "Aderezos"
     },
     {
         "id": 30,
         "nombre": "Not Mayo original sin huevo 350g",
         "precio": 800,
         "img": "/mayonesa.jpg",
-        "categoria": "Aderezos"
+        "category": "Aderezos"
     },
     {
         "id": 31,
-        "nombre": "Medallón Legumbres 100% vegano 4u 90g",
+        "nombre": "Medallones Legumbres 100% vegano 4u 90g",
         "precio": 1200,
         "img": "/medallon-garbanzo.jpg",
-        "categoria": "Congelados"
+        "category": "Congelados"
     },
     {
         "id": 32,
-        "nombre": "Medallón de Lentejas sin TACC 4u 500g",
+        "nombre": "Medallones de Lentejas sin TACC 4u 500g",
         "precio": 900,
         "img": "/medallon-lenteja.jpg",
-        "categoria": "Congelados"
+        "category": "Congelados"
+    },
+    {
+        "id": 33,
+        "nombre": "Medallón de Soja texturizada 1u 100g",
+        "precio": 250,
+        "img": "/medallon-meat.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 34,
+        "nombre": "Medallones rebozado simil Pollo 4u 480g",
+        "precio": 1100,
+        "img": "/medallon-pollo.png",
+        "category": "Congelados"
+    },
+    {
+        "id": 35,
+        "nombre": "Medallones de Quinoa y Sésamo 6u 700g",
+        "precio": 1500,
+        "img": "/medallon-quinoa.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 36,
+        "nombre": "Medallones de Soja texturizada 4u 320g",
+        "precio": 1000,
+        "img": "/medallon.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 37,
+        "nombre": "Milanesas de Calabaza y Choclo 2u 190g",
+        "precio": 750,
+        "img": "/milanesa-calabaza.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 38,
+        "nombre": "Milanesas de Caprese 2u 190g",
+        "precio": 750,
+        "img": "/milanesa-caprese.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 39,
+        "nombre": "Milanesas de 4 Vegetales 4u 320g",
+        "precio": 1100,
+        "img": "/milanesas-4vegetales.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 40,
+        "nombre": "Mostaza de Dijon orgánica 280g",
+        "precio": 800,
+        "img": "/mostaza.jpg",
+        "category": "Aderezos"
+    },
+    {
+        "id": 41,
+        "nombre": "Nueces mariposa sin cáscara 100g",
+        "precio": 600,
+        "img": "/nuez-mariposa.jpg",
+        "category": "Snacks"
+    },
+    {
+        "id": 42,
+        "nombre": "Nuggets de Mijo con Espinaca 300g",
+        "precio": 1300,
+        "img": "/nuggets-espinaca.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 43,
+        "nombre": "Nuggets de Garbanzos y Quinoa 300g",
+        "precio": 1300,
+        "img": "/nuggets-garbazos.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 44,
+        "nombre": "Nuggets de Lentejas 300g",
+        "precio": 1300,
+        "img": "/nuggets-lenteja.jpg",
+        "category": "Congelados"
+    },
+    {
+        "id": 45,
+        "nombre": "Ñoquis de Trigo sin TACC 250g",
+        "precio": 800,
+        "img": "/ñoquis-trigo.jpg",
+        "category": "Pastas"
+    },
+    {
+        "id": 46,
+        "nombre": "Pancakes de Avena Frutos Rojos 460g",
+        "precio": 300,
+        "img": "/pancakes.jpg",
+        "category": "Almacen"
+    },
+    {
+        "id": 47,
+        "nombre": "Pasta de Aceiutas Verdes 200g",
+        "precio": 700,
+        "img": "/pasta-aceitunas.jpg",
+        "category": "Almacen"
+    },
+    {
+        "id": 48,
+        "nombre": "Pasta de mani sin TACC 360g",
+        "precio": 800,
+        "img": "/pasta-mani.jpg",
+        "category": "Almacen"
+    },
+    {
+        "id": 49,
+        "nombre": "Pasta de Sesamo molida 385g",
+        "precio": 600,
+        "img": "/pasta-sesamo.jpg",
+        "category": "Almacen"
+    },
+    {
+        "id": 50,
+        "nombre": "Pistachos tostados y salados 100g",
+        "precio": 400,
+        "img": "/pistacho.jpg",
+        "category": "Snacks"
+    },
+    {
+        "id": 51,
+        "nombre": "Pretzels horneadas y saladas 150g",
+        "precio": 500,
+        "img": "/pretzels.jpg",
+        "category": "Snacks"
+    },
+    {
+        "id": 52,
+        "nombre": "Ravioles de Espinacas y Hummus 320g",
+        "precio": 1100,
+        "img": "/ravioles-espinaca.jpg",
+        "category": "Pastas"
+    },
+    {
+        "id": 53,
+        "nombre": "Ravioles de Trigo Sarraceno 320g",
+        "precio": 1000,
+        "img": "/ravioles-trigo.jpg",
+        "category": "Pastas"
+    },
+    {
+        "id": 54,
+        "nombre": "Salchichas 100% Vegetal 6u 225g",
+        "precio": 800,
+        "img": "/salchichas.png",
+        "category": "Congelados"
+    },
+    {
+        "id": 55,
+        "nombre": "Spaghetti 100% Integral 250g",
+        "precio": 700,
+        "img": "/spaghetti-integral.jpg",
+        "category": "Pastas"
+    },
+    {
+        "id": 56,
+        "nombre": "Tofu orgánico libre de gluten 340g",
+        "precio": 800,
+        "img": "/tofu.jpg",
+        "category": "Almacen"
+    },
+    {
+        "id": 57,
+        "nombre": "Tomates deshidratados en aceite 907g",
+        "precio": 600,
+        "img": "/tomates-deshidratados.jpeg",
+        "category": "Almacen"
+    },
+    {
+        "id": 58,
+        "nombre": "Tostaditas de Quinoa 120g",
+        "precio": 400,
+        "img": "/tostaditas.jpg",
+        "category": "Snacks"
+    },
+    {
+        "id": 59,
+        "nombre": "Harina Integral de Amaranto 400g",
+        "precio": 800,
+        "img": "/harina-amaranto.png",
+        "category": "Harinas"
+    },
+    {
+        "id": 60,
+        "nombre": "Harina natural de Coco 500g",
+        "precio": 700,
+        "img": "/harina-coco.jpg",
+        "category": "Harinas"
     }
 ]

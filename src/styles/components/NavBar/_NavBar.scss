@@ -7,6 +7,8 @@
         display: flex;
         padding: 0 45px;
         background-color: #13311e;
+        position: fixed;
+        z-index: 1000;
         .header-logo {
             width: 200px;  
             height: 75px;
@@ -22,7 +24,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 100px;
+            gap: 25px;
             .navbar-link {
                 text-decoration: none;
                 color: #9fc16c;
