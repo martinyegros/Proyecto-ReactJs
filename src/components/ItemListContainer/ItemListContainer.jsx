@@ -27,7 +27,7 @@ const ItemListContainer = () => {
     }, [categoryId])
 
     return (
-        <div>
+        <div className="catalogo-container">
             {
                 loading
                 ? <h2>Cargando...</h2>
