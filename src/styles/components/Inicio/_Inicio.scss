@@ -1,27 +1,17 @@
 .conti {
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;
     padding-top: 75px;
-    object-fit: contain;
-    position: relative;
-    h1 {
-        position: absolute;
-        top: 300px;
-        left: 300px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 900%;
-        line-height: 100%;
-        text-align: center;
-        color: #f9fd98;
-        font-family: "Roboto", sans-serif;
+    .cont-img {
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
     }
-    img {
-        max-width: 1000px;
-        max-height: 1000px;
-    }
+    
     .cont-titi {
-        h2 {
+        h1 {
             padding-top: 20px;
             font-style: normal;
             font-weight: 700;
