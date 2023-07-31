@@ -1,0 +1,22 @@
+.dprod1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 75px;
+    position: relative;
+    h1 {
+        position: absolute;
+        top: 280px;
+        left: 130px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 900%;
+        line-height: 100%;
+        text-align: center;
+        color: #f9fd98;
+        font-family: "Roboto", sans-serif;
+    }
+    img {
+        max-width: 1100px;
+        max-height: 1000px;
+    }
+}

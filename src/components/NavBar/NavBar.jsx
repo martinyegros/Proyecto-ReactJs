@@ -13,10 +13,10 @@ export const NavBar = () => {
                 </div>
 
                 <nav className="navbar">
-                    <Link className="navbar-link" to="*">INICIO</Link>
+                    <Link className="navbar-link" to="/">INICIO</Link>
                     <Menu />
-                    <Link className="navbar-link" to="*">RECETAS</Link>
-                    <Link className="navbar-link" to="*">NOSOTROS</Link>
+                    <Link className="navbar-link" to="/información">INFORMACIÓN</Link>
+                    <Link className="navbar-link" to="/contacto">CONTACTO</Link>
                 </nav>
 
                 <div>

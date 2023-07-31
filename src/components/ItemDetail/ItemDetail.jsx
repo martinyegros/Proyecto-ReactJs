@@ -4,6 +4,9 @@ export const ItemDetail = ({item}) => {
 
     return (
         <div className="catalogo2">
+            <div className="titcardet">
+                <h2 className="titdet">DETALLES DEL PRODUCTO</h2>
+            </div>
             <div className="card2">
                 <div className="image-wrapper2">
                     <img src={item.img} alt={item.nombre} className="card-img-top2"/>

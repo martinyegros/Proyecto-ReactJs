@@ -1,0 +1,45 @@
+.conti {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 75px;
+    object-fit: contain;
+    position: relative;
+    h1 {
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 900%;
+        line-height: 100%;
+        text-align: center;
+        color: #f9fd98;
+        font-family: "Roboto", sans-serif;
+    }
+    img {
+        max-width: 1000px;
+        max-height: 1000px;
+    }
+    .cont-titi {
+        h2 {
+            padding-top: 20px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 400%;
+            line-height: 100%;
+            text-align: center;
+            color: #13311e;
+            font-family: "Roboto", sans-serif;
+        }
+        p {
+            padding-top: 10px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 200%;
+            line-height: 100%;
+            text-align: center;
+            color: #2f5432;
+            font-family: "Roboto", sans-serif;
+        }
+    }
+}
