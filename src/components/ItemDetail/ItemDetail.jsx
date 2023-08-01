@@ -1,4 +1,4 @@
-
+import { ItemCount } from "../ItemCount/ItemCount"
 
 export const ItemDetail = ({item}) => {
 
@@ -15,7 +15,10 @@ export const ItemDetail = ({item}) => {
                     <h3 className="card-title2">{item.nombre}</h3>
                     <p className="card-desc">{item.descripcion}</p>
                     <p className="card-precio2">Precio: ${item.precio}</p>
-                    <button className="btn btn-dark2">Agregar al carrito</button>
+                    <div className="btnscard">
+                        <ItemCount max={item.stock}/>
+                        <button className="btn-dark2">Agregar al carrito</button>
+                    </div>
                 </div>
             </div>
         </div>

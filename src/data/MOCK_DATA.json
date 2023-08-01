@@ -5,7 +5,8 @@
         "precio": 900,
         "img": "/aceitunas-descarozadas.jpg",
         "category": "Almacen",
-        "descripcion": "Aceitunas verdes descarozadas orgánicas 'San Nicolas' 900g"
+        "descripcion": "Aceitunas verdes descarozadas orgánicas 'San Nicolas' 900g",
+        "stock": 25
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "precio": 600,
         "img": "/castanas-caju.jpg",
         "category": "Snacks",
-        "descripcion": "Castañas de Cajú saladas y tostadas sin T.A.C.C. 'El Peoncito' 100g"
+        "descripcion": "Castañas de Cajú saladas y tostadas sin T.A.C.C. 'El Peoncito' 100g",
+        "stock": 50
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "precio": 2100,
         "img": "/chorizo-soja.jpg",
         "category": "Congelados",
-        "descripcion": "Chorizo 100% Vegano de Soja Texturizada 'Veganuel' 6u 400g "
+        "descripcion": "Chorizo 100% Vegano de Soja Texturizada 'Veganuel' 6u 400g",
+        "stock": 40
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "precio": 1500,
         "img": "/chorizo.jpg",
         "category": "Congelados",
-        "descripcion": "Chorizo Parrillero 100% Vegano sin preservantes 'Vegusta' 3u 200g"
+        "descripcion": "Chorizo Parrillero 100% Vegano sin preservantes 'Vegusta' 3u 200g",
+        "stock": 45
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "precio": 700,
         "img": "/faina.jpg",
         "category": "Snacks",
-        "descripcion": "Fainá de Garbanzo sin gluten Vegano sin T.A.C.C. 'Natural Pop' 200g "
+        "descripcion": "Fainá de Garbanzo sin gluten Vegano sin T.A.C.C. 'Natural Pop' 200g",
+        "stock": 30
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "precio": 1200,
         "img": "/falafel-arvejas.png",
         "category": "Congelados",
-        "descripcion": "Falafel de Arvejas y Quinoa Vegano sin T.A.C.C. 'Natural Pop' 200g"
+        "descripcion": "Falafel de Arvejas y Quinoa Vegano sin T.A.C.C. 'Natural Pop' 200g",
+        "stock": 25
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "precio": 600,
         "img": "/fideos-chia.jpg",
         "category": "Pastas",
-        "descripcion": "Pasta seca semillas de Chia, Quinoa roja y Amaranto 'Troncos' 500g"
+        "descripcion": "Pasta seca semillas de Chia, Quinoa roja y Amaranto 'Troncos' 500g",
+        "stock": 20
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "precio": 800,
         "img": "/fideos-espinaca.jpeg",
         "category": "Pastas",
-        "descripcion": "Fusilli seco de Arroz y Espinaca sin conservantes 'Thani' 270g"
+        "descripcion": "Fusilli seco de Arroz y Espinaca sin conservantes 'Thani' 270g",
+        "stock": 40
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "precio": 600,
         "img": "/fideos-integral.png",
         "category": "Pastas",
-        "descripcion": "Fusilli de Semola Integral de Italia Spirali 'pastaZARA' 500g"
+        "descripcion": "Fusilli de Semola Integral de Italia Spirali 'pastaZARA' 500g",
+        "stock": 30
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "precio": 1200,
         "img": "/fideos-lenteja.jpg",
         "category": "Pastas",
-        "descripcion": "Fusilli de Lenteja sin T.A.C.C. sin colorantes 'Makarona' 250g"
+        "descripcion": "Fusilli de Lenteja sin T.A.C.C. sin colorantes 'Makarona' 250g",
+        "stock": 35
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "precio": 800,
         "img": "/fideos-morron.jpeg",
         "category": "Pastas",
-        "descripcion": "Fusilli seco de Arroz con Morrón sin conservantes 'Thani' 270g"
+        "descripcion": "Fusilli seco de Arroz con Morrón sin conservantes 'Thani' 270g",
+        "stock": 32
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "precio": 600,
         "img": "/fideos-quinoa.jpg",
         "category": "Pastas",
-        "descripcion": "Pasta Riso Spaguetti de Quinoa y Amaranto 'Riso Scotti' 500g"
+        "descripcion": "Pasta Riso Spaguetti de Quinoa y Amaranto 'Riso Scotti' 500g",
+        "stock": 40
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "precio": 800,
         "img": "/fideos-tomate.jpeg",
         "category": "Pastas",
-        "descripcion": "Fusilli seco de Arroz con Tomate y Ajo sin conservamtes 'Thani' 270g"
+        "descripcion": "Fusilli seco de Arroz con Tomate y Ajo sin conservamtes 'Thani' 270g",
+        "stock": 35
     },
     {
         "id": 14,
@@ -109,7 +122,8 @@
         "precio": 500,
         "img": "/galleta-arroz.jpg",
         "category": "Snacks",
-        "descripcion": "Galletas de Arroz Vegano tradicional sin gluten 'Kupiec' 18u 90g"
+        "descripcion": "Galletas de Arroz Vegano tradicional sin gluten 'Kupiec' 18u 90g",
+        "stock": 30
     },
     {
         "id": 15,
@@ -117,7 +131,8 @@
         "precio": 700,
         "img": "/galleta-curcuma.jpg",
         "category": "Snacks",
-        "descripcion": "Galletas artesanales horneadas de Cúrcuma y Sésamo sin gluten 'Tika' 140g"
+        "descripcion": "Galletas artesanales horneadas de Cúrcuma y Sésamo sin gluten 'Tika' 140g",
+        "stock": 35
     },
     {
         "id": 16,
@@ -125,7 +140,8 @@
         "precio": 450,
         "img": "/galletas-aromaticas.jpg",
         "category": "Snacks",
-        "descripcion": "Galletas de Arroz aromático orgánicas Integrales 'Pampa's' 30g"
+        "descripcion": "Galletas de Arroz aromático orgánicas Integrales 'Pampa's' 30g",
+        "stock": 45
     },
     {
         "id": 17,
@@ -133,7 +149,8 @@
         "precio": 500,
         "img": "/galletitas-chocolate.jpg",
         "category": "Snacks",
-        "descripcion": "Galletitas horneadas de Chocolate con Cacao Natural y Maní 'Canvas' 250g"
+        "descripcion": "Galletitas horneadas de Chocolate con Cacao Natural y Maní 'Canvas' 250g",
+        "stock": 45
     },
     {
         "id": 18,
@@ -141,7 +158,8 @@
         "precio": 900,
         "img": "/garbanzos-conserva.jpg",
         "category": "Almacen",
-        "descripcion": "Garbanzo en conserva sin conservantes 'Cristo de los cerros' 280g"
+        "descripcion": "Garbanzo en conserva sin conservantes 'Cristo de los cerros' 280g",
+        "stock": 20
     },
     {
         "id": 19,
@@ -149,7 +167,8 @@
         "precio": 600,
         "img": "/granola.jpg",
         "category": "Snacks",
-        "descripcion": "Granola de Almendras, Semillas, Arándanos sin T.A.C.C. 'Íntegra' 250g"
+        "descripcion": "Granola de Almendras, Semillas, Arándanos sin T.A.C.C. 'Íntegra' 250g",
+        "stock": 30
     },
     {
         "id": 20,
@@ -157,7 +176,8 @@
         "precio": 800,
         "img": "/harina-avena.jpg",
         "category": "Harinas",
-        "descripcion": "Harina Natural de Avena libre de gluten sin conservantes 'Ambrosia' 500g"
+        "descripcion": "Harina Natural de Avena libre de gluten sin conservantes 'Ambrosia' 500g",
+        "stock": 20
     },
     {
         "id": 21,
@@ -165,7 +185,8 @@
         "precio": 800,
         "img": "/harina-garbanzo.jpg",
         "category": "Harinas",
-        "descripcion": "Harina Natural de Garbanzo libre de gluten sin conservantes 'Ambrosia' 500g"
+        "descripcion": "Harina Natural de Garbanzo libre de gluten sin conservantes 'Ambrosia' 500g",
+        "stock": 20
     },
     {
         "id": 22,
@@ -173,7 +194,8 @@
         "precio": 1200,
         "img": "/harina-integral.jpg",
         "category": "Harinas",
-        "descripcion": "Harina Integral de Trigo fina orgánico 100% Vegano 'Yin Yang' 1kg"
+        "descripcion": "Harina Integral de Trigo fina orgánico 100% Vegano 'Yin Yang' 1kg",
+        "stock": 8
     },
     {
         "id": 23,
@@ -181,7 +203,8 @@
         "precio": 700,
         "img": "/harina-quinoa.jpg",
         "category": "Harinas",
-        "descripcion": "Harina de Quinoa sin gluten mi tierra 'Nutrisa' 400g"
+        "descripcion": "Harina de Quinoa sin gluten mi tierra 'Nutrisa' 400g",
+        "stock": 20
     },
     {
         "id": 24,
@@ -189,7 +212,8 @@
         "precio": 1000,
         "img": "/hummus-garbanzo.jpg",
         "category": "Almacen",
-        "descripcion": "Hummus de Garbanzos orgánico sin T.A.C.C. 'Pampagourmet' 180g"
+        "descripcion": "Hummus de Garbanzos orgánico sin T.A.C.C. 'Pampagourmet' 180g",
+        "stock": 25
     },
     {
         "id": 25,
@@ -197,7 +221,8 @@
         "precio": 800,
         "img": "/jamon.jpg",
         "category": "Congelados",
-        "descripcion": "Jamón Mortadela 100% Vegano libre de colesterol 'Vegusta' 200g"
+        "descripcion": "Jamón Mortadela 100% Vegano libre de colesterol 'Vegusta' 200g",
+        "stock": 20
     },
     {
         "id": 26,
@@ -205,7 +230,8 @@
         "precio": 700,
         "img": "/mayo-albahaca.png",
         "category": "Aderezos",
-        "descripcion": "Mayonesa de Albahaca 100% Vegana sin huevo y sin leche 'MayoV' 270g"
+        "descripcion": "Mayonesa de Albahaca 100% Vegana sin huevo y sin leche 'MayoV' 270g",
+        "stock": 15
     },
     {
         "id": 27,
@@ -213,7 +239,8 @@
         "precio": 700,
         "img": "/mayo-remolacha.jpg",
         "category": "Aderezos",
-        "descripcion": "Mayonesa de Remolacha 100% Vegana sin huevo y sin leche 'MayoV' 270g"
+        "descripcion": "Mayonesa de Remolacha 100% Vegana sin huevo y sin leche 'MayoV' 270g",
+        "stock": 12
     },
     {
         "id": 28,
@@ -221,7 +248,8 @@
         "precio": 700,
         "img": "/mayo-zanahoria.jpg",
         "category": "Aderezos",
-        "descripcion": "Mayonesa de Zanahoria 100% Vegana sin huevo y sin leche 'MayoV' 270g"
+        "descripcion": "Mayonesa de Zanahoria 100% Vegana sin huevo y sin leche 'MayoV' 270g",
+        "stock": 16
     },
     {
         "id": 29,
@@ -229,7 +257,8 @@
         "precio": 600,
         "img": "/mayonesa-soja.jpg",
         "category": "Aderezos",
-        "descripcion": "Mayonsea de Soja orgánica sin huevo y sin leche 'Mi Soja' 280g"
+        "descripcion": "Mayonsea de Soja orgánica sin huevo y sin leche 'Mi Soja' 280g",
+        "stock": 18
     },
     {
         "id": 30,
@@ -237,7 +266,8 @@
         "precio": 800,
         "img": "/mayonesa.jpg",
         "category": "Aderezos",
-        "descripcion": "Mayonesa sin huevo, sin leche y sin gluten 'NotMayo' 350g"
+        "descripcion": "Mayonesa sin huevo, sin leche y sin gluten 'NotMayo' 350g",
+        "stock": 20
     },
     {
         "id": 31,
@@ -245,7 +275,8 @@
         "precio": 1200,
         "img": "/medallon-garbanzo.jpg",
         "category": "Congelados",
-        "descripcion": "Medallones de Legumbres 100% Vegano 'Vegusta' 4u 90g"
+        "descripcion": "Medallones de Legumbres 100% Vegano 'Vegusta' 4u 90g",
+        "stock": 40
     },
     {
         "id": 32,
@@ -253,7 +284,8 @@
         "precio": 900,
         "img": "/medallon-lenteja.jpg",
         "category": "Congelados",
-        "descripcion": "Medallones de Lentejas sin T.A.C.C. 'Green Kitchen' 4u 500g"
+        "descripcion": "Medallones de Lentejas sin T.A.C.C. 'Green Kitchen' 4u 500g",
+        "stock": 35
     },
     {
         "id": 33,
@@ -261,7 +293,8 @@
         "precio": 250,
         "img": "/medallon-meat.jpg",
         "category": "Congelados",
-        "descripcion": "Medallones de Soja texturizada 100% Vegano 'Meatless' 1u 100g"
+        "descripcion": "Medallones de Soja texturizada 100% Vegano 'Meatless' 1u 100g",
+        "stock": 45
     },
     {
         "id": 34,
@@ -269,7 +302,8 @@
         "precio": 1100,
         "img": "/medallon-pollo.png",
         "category": "Congelados",
-        "descripcion": "Medallones rebozados simil Pollo 100% Vegano 'D'Raiz' 4u 480g"
+        "descripcion": "Medallones rebozados simil Pollo 100% Vegano 'D'Raiz' 4u 480g",
+        "stock": 35
     },
     {
         "id": 35,
@@ -277,7 +311,8 @@
         "precio": 1500,
         "img": "/medallon-quinoa.jpg",
         "category": "Congelados",
-        "descripcion": "Medallones de Quinoa y Sésamo 'Natural Pop' 6u 700g"
+        "descripcion": "Medallones de Quinoa y Sésamo 'Natural Pop' 6u 700g",
+        "stock": 40
     },
     {
         "id": 36,
@@ -285,7 +320,8 @@
         "precio": 1000,
         "img": "/medallon.jpg",
         "category": "Congelados",
-        "descripcion": "Medallones de Soja texturizada 100% Vegano 'D'Raiz' 4u 320g"
+        "descripcion": "Medallones de Soja texturizada 100% Vegano 'D'Raiz' 4u 320g",
+        "stock": 35
     },
     {
         "id": 37,
@@ -293,7 +329,8 @@
         "precio": 750,
         "img": "/milanesa-calabaza.jpg",
         "category": "Congelados",
-        "descripcion": "Milanesas de Calabaza, Zanahoria y Choclo 'Naturalrroz Vegan' 2u 190g"
+        "descripcion": "Milanesas de Calabaza, Zanahoria y Choclo 'Naturalrroz Vegan' 2u 190g",
+        "stock": 25
     },
     {
         "id": 38,
@@ -301,7 +338,8 @@
         "precio": 750,
         "img": "/milanesa-caprese.jpg",
         "category": "Congelados",
-        "descripcion": "Milanesas de Caprese sin T.A.C.C. 'Naturalrroz Vegan' 2u 190g"
+        "descripcion": "Milanesas de Caprese sin T.A.C.C. 'Naturalrroz Vegan' 2u 190g",
+        "stock": 20
     },
     {
         "id": 39,
@@ -309,7 +347,8 @@
         "precio": 1100,
         "img": "/milanesas-4vegetales.jpg",
         "category": "Congelados",
-        "descripcion": "Milanesas de Calabaza, Choclo, Espinaca, Zanahoria 'Granja del Sol' 4u 320g"
+        "descripcion": "Milanesas de Calabaza, Choclo, Espinaca, Zanahoria 'Granja del Sol' 4u 320g",
+        "stock": 23
     },
     {
         "id": 40,
@@ -317,7 +356,8 @@
         "precio": 800,
         "img": "/mostaza.jpg",
         "category": "Aderezos",
-        "descripcion": "Mostaza de Dijon orgánica sin conservantes 'Bornier' 280g"
+        "descripcion": "Mostaza de Dijon orgánica sin conservantes 'Bornier' 280g",
+        "stock": 20
     },
     {
         "id": 41,
@@ -325,7 +365,8 @@
         "precio": 600,
         "img": "/nuez-mariposa.jpg",
         "category": "Snacks",
-        "descripcion": "Nueces Mariposa horneadas sin cáscara 'El Peoncito' 100g"
+        "descripcion": "Nueces Mariposa horneadas sin cáscara 'El Peoncito' 100g",
+        "stock": 35
     },
     {
         "id": 42,
@@ -333,7 +374,8 @@
         "precio": 1300,
         "img": "/nuggets-espinaca.jpg",
         "category": "Congelados",
-        "descripcion": "Nuggets de Mijo con Espinaca sin T.A.C.C. 'Green Kitchen' 300g"
+        "descripcion": "Nuggets de Mijo con Espinaca sin T.A.C.C. 'Green Kitchen' 300g",
+        "stock": 20
     },
     {
         "id": 43,
@@ -341,7 +383,8 @@
         "precio": 1300,
         "img": "/nuggets-garbazos.jpg",
         "category": "Congelados",
-        "descripcion": "Nuggets de Garbanzos y Quinoa sin T.A.C.C. 'Green Kitchen' 300g"
+        "descripcion": "Nuggets de Garbanzos y Quinoa sin T.A.C.C. 'Green Kitchen' 300g",
+        "stock": 35
     },
     {
         "id": 44,
@@ -349,7 +392,8 @@
         "precio": 1300,
         "img": "/nuggets-lenteja.jpg",
         "category": "Congelados",
-        "descripcion": "Nuggets de Lentejas sin T.A.C.C. 'Green Kitchen' 300g"
+        "descripcion": "Nuggets de Lentejas sin T.A.C.C. 'Green Kitchen' 300g",
+        "stock": 32
     },
     {
         "id": 45,
@@ -357,7 +401,8 @@
         "precio": 800,
         "img": "/ñoquis-trigo.jpg",
         "category": "Pastas",
-        "descripcion": "Ñoquis de Trigo Sarraceno sin T.A.C.C. 'Leofanti' 250g"
+        "descripcion": "Ñoquis de Trigo Sarraceno sin T.A.C.C. 'Leofanti' 250g",
+        "stock": 25
     },
     {
         "id": 46,
@@ -365,7 +410,8 @@
         "precio": 300,
         "img": "/pancakes.jpg",
         "category": "Almacen",
-        "descripcion": "Pancakes de Avena con Frutos Rojos 'Bygiro' 6u 460g"
+        "descripcion": "Pancakes de Avena con Frutos Rojos 'Bygiro' 6u 460g",
+        "stock": 35
     },
     {
         "id": 47,
@@ -373,7 +419,8 @@
         "precio": 700,
         "img": "/pasta-aceitunas.jpg",
         "category": "Almacen",
-        "descripcion": "Pasta de Aceitunas Verdes orgánico 'San Nicolas' 200g"
+        "descripcion": "Pasta de Aceitunas Verdes orgánico 'San Nicolas' 200g",
+        "stock": 18
     },
     {
         "id": 48,
@@ -381,7 +428,8 @@
         "precio": 800,
         "img": "/pasta-mani.jpg",
         "category": "Almacen",
-        "descripcion": "Pasta de Maní sin T.A.C.C. con Omega 3 'Sol Azteca' 360g"
+        "descripcion": "Pasta de Maní sin T.A.C.C. con Omega 3 'Sol Azteca' 360g",
+        "stock": 15
     },
     {
         "id": 49,
@@ -389,7 +437,8 @@
         "precio": 600,
         "img": "/pasta-sesamo.jpg",
         "category": "Almacen",
-        "descripcion": "Pasta 100% Sesamo molida Tahini 'Sytari' 385g"
+        "descripcion": "Pasta 100% Sesamo molida Tahini 'Sytari' 385g",
+        "stock": 15
     },
     {
         "id": 50,
@@ -397,7 +446,8 @@
         "precio": 400,
         "img": "/pistacho.jpg",
         "category": "Snacks",
-        "descripcion": "Pistachos tostados y salados sin T.A.C.C. 'El Peoncito' 100g"
+        "descripcion": "Pistachos tostados y salados sin T.A.C.C. 'El Peoncito' 100g",
+        "stock": 25
     },
     {
         "id": 51,
@@ -405,7 +455,8 @@
         "precio": 500,
         "img": "/pretzels.jpg",
         "category": "Snacks",
-        "descripcion": "Pretzels galletas horneadas y saladas 'Autenta Foods' 150g"
+        "descripcion": "Pretzels galletas horneadas y saladas 'Autenta Foods' 150g",
+        "stock": 30
     },
     {
         "id": 52,
@@ -413,7 +464,8 @@
         "precio": 1100,
         "img": "/ravioles-espinaca.jpg",
         "category": "Pastas",
-        "descripcion": "Ravioles de Espinaca y Hummus con harina Integral 'Macrini' 320g"
+        "descripcion": "Ravioles de Espinaca y Hummus con harina Integral 'Macrini' 320g",
+        "stock": 25
     },
     {
         "id": 53,
@@ -421,7 +473,8 @@
         "precio": 1000,
         "img": "/ravioles-trigo.jpg",
         "category": "Pastas",
-        "descripcion": "Ravioles de Trigo Sarraceno libre de gluten 'Leofanti' 320g"
+        "descripcion": "Ravioles de Trigo Sarraceno libre de gluten 'Leofanti' 320g",
+        "stock": 30
     },
     {
         "id": 54,
@@ -429,7 +482,8 @@
         "precio": 800,
         "img": "/salchichas.png",
         "category": "Congelados",
-        "descripcion": "Salchichas de soja texturizada 100% Vegetal 'Vegetaléx' 6u 225g"
+        "descripcion": "Salchichas de soja texturizada 100% Vegetal 'Vegetaléx' 6u 225g",
+        "stock": 45
     },
     {
         "id": 55,
@@ -437,7 +491,8 @@
         "precio": 700,
         "img": "/spaghetti-integral.jpg",
         "category": "Pastas",
-        "descripcion": "Spaguetti con harina de Trigo Integral 100% Natural 'A tu casa' 250g"
+        "descripcion": "Spaguetti con harina de Trigo Integral 100% Natural 'A tu casa' 250g",
+        "stock": 45
     },
     {
         "id": 56,
@@ -445,7 +500,8 @@
         "precio": 800,
         "img": "/tofu.jpg",
         "category": "Almacen",
-        "descripcion": "Tofu orgánico libre de gluten 100% Vegetal 'Mori-Nu' 340g"
+        "descripcion": "Tofu orgánico libre de gluten 100% Vegetal 'Mori-Nu' 340g",
+        "stock": 20
     },
     {
         "id": 57,
@@ -453,7 +509,8 @@
         "precio": 600,
         "img": "/tomates-deshidratados.jpeg",
         "category": "Almacen",
-        "descripcion": "Tomates deshidratados al sol en aceite de Oliva 'Bella Sun Luci' 907g"
+        "descripcion": "Tomates deshidratados al sol en aceite de Oliva 'Bella Sun Luci' 907g",
+        "stock": 15
     },
     {
         "id": 58,
@@ -461,7 +518,8 @@
         "precio": 400,
         "img": "/tostaditas.jpg",
         "category": "Snacks",
-        "descripcion": "Tostaditas de Quinoa libre de gluten sin T.A.C.C. 'Yin Yang' 120g"
+        "descripcion": "Tostaditas de Quinoa libre de gluten sin T.A.C.C. 'Yin Yang' 120g",
+        "stock": 30
     },
     {
         "id": 59,
@@ -469,7 +527,8 @@
         "precio": 900,
         "img": "/harina-amaranto.png",
         "category": "Harinas",
-        "descripcion": "Harina Integral de Amaranto agorecológico 'Épicos' 400g"
+        "descripcion": "Harina Integral de Amaranto agorecológico 'Épicos' 400g",
+        "stock": 15
     },
     {
         "id": 60,
@@ -477,6 +536,7 @@
         "precio": 700,
         "img": "/harina-coco.jpg",
         "category": "Harinas",
-        "descripcion": "Harina Natural de Coco libre de gluten 'Frutos Are' 500g"
+        "descripcion": "Harina Natural de Coco libre de gluten 'Frutos Are' 500g",
+        "stock": 9
     }
 ]

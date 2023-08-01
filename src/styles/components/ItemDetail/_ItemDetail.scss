@@ -73,23 +73,27 @@
                 color: #13311e;
                 font-family: "Poppins", sans-serif;
             }
-            .btn-dark2 {
-                margin-left: 15%;
-                width: 70%;
-                height: 50px;
-                box-sizing: border-box;
-                border: 5px solid black;
-                border-radius: 20px;
-                background: #9fc16c;
-                align-content: center;
+            .btnscard {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-family: "Poppins", sans-serif;
-                font-size: 120%;
-                color: #13311e;
-                margin-top: 50px;
-                cursor: pointer;
+                gap: 15px;
+                .btn-dark2 {
+                    width: 50%;
+                    height: 50px;
+                    box-sizing: border-box;
+                    border: 3px solid black;
+                    border-radius: 20px;
+                    background: #9fc16c;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 120%;
+                    color: #13311e;
+                    margin-top: 50px;
+                    cursor: pointer;
+                }
             }
         }
     }

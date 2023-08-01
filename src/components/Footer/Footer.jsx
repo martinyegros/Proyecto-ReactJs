@@ -30,7 +30,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="foot-2">
-                <h4 className="titf2">Medios de envío</h4>
+                <h4 className="titf2">Medios de Envío</h4>
                 <div className="logos2">
                     <img src={logoCorreo} alt="Logo de Correo Argentino" />
                 </div>
