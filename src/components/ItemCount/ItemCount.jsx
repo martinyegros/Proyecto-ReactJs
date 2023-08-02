@@ -1,21 +1,20 @@
-import { useState } from "react"
 
-export const ItemCount = ({max}) => {
-    const [counter, setCounter] = useState(1)
+export const ItemCount = ({max, cantidad, setCantidad, agregar}) => {
 
     const handleRestar = () => {
-        counter > 1 && setCounter(counter - 1)
+        cantidad > 1 && setCantidad(cantidad - 1)
     }
 
     const handleSumar = () => {
-        counter < max && setCounter(counter + 1)
+        cantidad < max && setCantidad(cantidad + 1)
     }
 
     return(
         <div className="btnscard">
             <button onClick={handleRestar} className="btn-dark1">-</button>
-            <span className="cantc">{counter}</span>
+            <span className="cantc">{cantidad}</span>
             <button onClick={handleSumar} className="btn-dark1">+</button>
+            <button onClick={agregar} className="btn-dark2">Agregar al carrito</button>
         </div>
     )
 }
