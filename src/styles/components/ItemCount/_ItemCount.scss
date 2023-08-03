@@ -3,6 +3,21 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    .btn-red1 {
+        width: 40px;
+        height: 30px;
+        box-sizing: border-box;
+        border: 3px solid black;
+        border-radius: 10px;
+        background: red;
+        font-size: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        margin-top: 50px;
+        cursor: pointer;
+    }
     .btn-dark1 {
         width: 40px;
         height: 30px;

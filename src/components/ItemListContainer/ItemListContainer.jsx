@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { pedirDatos } from "../../helpers/pedirDatos";
 import { ItemList } from "../ItemList.jsx/ItemList";
 import { useParams } from "react-router-dom";
+import { Loader } from "../Loader/Loader";
+import ImagProd from "../../assets/productos.jpeg";
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
@@ -27,11 +29,20 @@ const ItemListContainer = () => {
     }, [categoryId])
 
     return (
-        <div className="catalogo-container">
+        <div>
             {
                 loading
-                ? <h2>Cargando...</h2>
-                : <ItemList productos={productos}/>
+                ? <Loader/>
+                : <>
+                <div className="dprod1">
+                    <h1>PRODUCTOS</h1>
+                    <img src={ImagProd} alt="Imagen de productos" />
+
+                    <div className="catalogo-container">
+                        <ItemList productos={productos}/>
+                    </div>
+                </div>
+                </>
             }    
         </div>
     )

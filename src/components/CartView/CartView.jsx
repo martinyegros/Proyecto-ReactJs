@@ -1,8 +1,15 @@
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
+import { EmptyCart } from "../EmptyCart/EmptyCart"
 
 export const CartView = () => {
     const { cart, totalCompra, vaciarCarrito, removerDelCarrito } = useContext(CartContext)
+
+    if (cart.length === 0) {
+        return (
+            < EmptyCart />
+        )
+    }
 
     return(
         <div className="carrito-container">

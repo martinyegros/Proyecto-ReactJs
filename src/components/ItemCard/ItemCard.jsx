@@ -10,7 +10,8 @@ export const ItemCard = ({item}) => {
             <div className="card-body">
                 <h3 className="card-title">{item.nombre}</h3>
                 <p className="card-precio">Precio: ${item.precio}</p>
-                <Link to={`/detail/${item.id}`} className="btn btn-dark">Ver más</Link>
+                {item.stock < 10 && <p className="tit-unid">Quedan sólo {item.stock} unidades</p>}
+                <Link to={`/detail/${item.id}`} className="btn-dark">Ver más</Link>
             </div>
         </div>
     )

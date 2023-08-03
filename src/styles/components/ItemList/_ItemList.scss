@@ -2,15 +2,6 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
-    h2 {
-        padding-top: 35px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 150%;
-        line-height: 100%;
-        color: #2f5432;
-        font-family: "Roboto", sans-serif;
-    }
     .row {
         display: grid;
         grid-template-columns: repeat(4, 1fr);

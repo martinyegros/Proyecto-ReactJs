@@ -5,9 +5,9 @@ import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetail
 import { ErrorPagina } from "./components/ErrorPagina/ErrorPagina";
 import { Footer } from "./components/Footer/Footer";
 import { Inicio } from "./components/Inicio/Inicio";
-import { Producto } from "./components/Productos/Productos";
 import { CartProvider } from "./context/CartContext";
 import { CartView } from "./components/CartView/CartView";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
 
@@ -19,8 +19,8 @@ function App() {
         <NavBar />
 
         <Routes>
-          <Route path="/productos" element={ <Producto /> }/>
-          <Route path="/productos/:categoryId" element={ <Producto /> }/>
+          <Route path="/productos" element={ <ItemListContainer /> }/>
+          <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>
           <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
           <Route path="*" element={ <ErrorPagina/> }/>
           <Route path="/" element={ <Inicio /> }/>
