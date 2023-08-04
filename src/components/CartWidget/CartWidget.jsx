@@ -1,17 +1,34 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import logoCarrito from "../../assets/vegetales.png";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
+import { CartView } from "../CartView/CartView";
 
 export const CartWidget = () => {
     const { totalCantidad } = useContext(CartContext)
 
+    const [showCarr, setShowCarr] = useState(false)
+
+    const handleOpen = () => {
+        setShowCarr(true)
+    }
+
+    const handleClose = () => {
+        setShowCarr(false)
+    }
+
     return (
-        <Link to="/cart" className="icon-container">
-            <img className='icon-cart' src={logoCarrito} alt="Logo del carrito" />
-            <div className="count-products">
-                <span className="contador-productos">{totalCantidad()}</span>
+        <div className={showCarr ? "carr-act" : ""}>
+            <div className="icon-container">
+                <img onClick={handleOpen} className='icon-cart' src={logoCarrito} alt="Logo del carrito" />
+                <div className="count-products">
+                    <span className="contador-productos">{totalCantidad()}</span>
+                </div>
             </div>
-        </Link>
+            <div className="menu-backd" onClick={handleClose}>
+                <CartView close={handleClose}/>
+            </div>
+        </div>
+        
     )   
 };

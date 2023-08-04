@@ -22,6 +22,22 @@
         border-radius: 50%;
     }
 }
+.menu-backd {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    inset: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .15s .1s;
+}
+
+.carr-act {
+    .menu-backd {
+        visibility: visible;
+        opacity: 1;
+        transition: all .15s;
+    }
+}
 
 
 

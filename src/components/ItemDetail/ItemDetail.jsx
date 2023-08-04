@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
 import { ItemCount } from "../ItemCount/ItemCount"
 import { useContext, useState } from "react"
@@ -30,12 +29,11 @@ export const ItemDetail = ({item}) => {
 
                     {
                         isInCart(item.id)
-                            ? <div className="btnscard"><Link className="btnterm" to="/cart">Terminar mi compra</Link></div>
+                            ? <div className="btnscard"><ItemCount max={item.stock} cantidad={cantidad} setCantidad={setCantidad} agregar={handleAgregar}/></div>
                             : <div className="btnscard"><ItemCount max={item.stock} cantidad={cantidad} setCantidad={setCantidad} agregar={handleAgregar}/></div>
                     }
                 </div>
             </div>
         </div>
-        
     )
 }

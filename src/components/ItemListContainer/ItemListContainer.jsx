@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { pedirDatos } from "../../helpers/pedirDatos";
 import { ItemList } from "../ItemList.jsx/ItemList";
 import { useParams } from "react-router-dom";
@@ -10,6 +10,16 @@ const ItemListContainer = () => {
     const [loading, setLoading] = useState(true)
 
     const { categoryId } = useParams()
+
+    const ref = useRef();
+
+    const scrollear = () => {
+        ref.current.scrollIntoView(false);
+    }
+
+    useEffect(() => {
+        scrollear()
+    }, [categoryId])
 
     useEffect(() => {
         setLoading(true)
@@ -29,7 +39,7 @@ const ItemListContainer = () => {
     }, [categoryId])
 
     return (
-        <div>
+        <div ref={ref}>
             {
                 loading
                 ? <Loader/>
