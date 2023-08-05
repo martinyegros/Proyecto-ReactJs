@@ -15,30 +15,32 @@ export const Footer = () => {
 
     return (
         <footer className="foot">
-            <div className="foot-1">
-                <h4 className="titf1">Medios de Pago</h4>
-                <div className="logos1">
-                    <img src={logoMerPag} alt="Logo de la Mercado pago" />
-                    <img src={logoMasterc} alt="Logo de la Mastercard" />
-                    <img src={logoVisa} alt="Logo de Visa" />
-                    <img src={logoAmerican} alt="Logo de American" />
-                    <img src={logoNaranja} alt="Logo de Naranja" />
-                    <img src={logoCabal} alt="Logo de Cabal" />
-                    <img src={logoMaestro} alt="Logo de Maestro" />
-                    <img src={logoPagof} alt="Logo de Pago fácil" />
-                    <img src={logoRapi} alt="Logo de Rapi pago" />
+            <div className="footp">
+                <div className="foot-1">
+                    <h4 className="titf1">Medios de Pago</h4>
+                    <div className="logos1">
+                        <img src={logoMerPag} alt="Logo de la Mercado pago" />
+                        <img src={logoMasterc} alt="Logo de la Mastercard" />
+                        <img src={logoVisa} alt="Logo de Visa" />
+                        <img src={logoAmerican} alt="Logo de American" />
+                        <img src={logoNaranja} alt="Logo de Naranja" />
+                        <img src={logoCabal} alt="Logo de Cabal" />
+                        <img src={logoMaestro} alt="Logo de Maestro" />
+                        <img src={logoPagof} alt="Logo de Pago fácil" />
+                        <img src={logoRapi} alt="Logo de Rapi pago" />
+                    </div>
                 </div>
-            </div>
-            <div className="foot-2">
-                <h4 className="titf2">Medios de Envío</h4>
-                <div className="logos2">
-                    <img src={logoCorreo} alt="Logo de Correo Argentino" />
+                <div className="foot-2">
+                    <h4 className="titf2">Medios de Envío</h4>
+                    <div className="logos2">
+                        <img src={logoCorreo} alt="Logo de Correo Argentino" />
+                    </div>
                 </div>
-            </div>
-            <div className="foot-3">
-                <h4 className="titf3">Contacto</h4>
-                <p>marveg@mail.com</p>
-                <p>4444-4444</p>
+                <div className="foot-3">
+                    <h4 className="titf3">Contacto</h4>
+                    <p>marveg@mail.com</p>
+                    <p>4444-4444</p>
+                </div>
             </div>
             <div className="foot-4">
                 <div className="logos4">
@@ -48,7 +50,6 @@ export const Footer = () => {
                     <a href="http://es-la.facebook.com/" target="_blank">
                         <img src={logoFacebook} alt="Logo de Facebook" />
                     </a>
-                    
                 </div>
             </div>
         </footer>
