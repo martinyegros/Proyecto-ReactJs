@@ -3,6 +3,7 @@ import { CartContext } from "../../context/CartContext"
 import { EmptyCart } from "../EmptyCart/EmptyCart"
 import iconoCerrar from "../../assets/cierre.png"
 import iconoBasura from "../../assets/basura.png"
+import { Link } from "react-router-dom"
 
 export const CartView = ({close}) => {
     const { cart, totalCompra, vaciarCarrito, removerDelCarrito } = useContext(CartContext)
@@ -48,6 +49,10 @@ export const CartView = ({close}) => {
             <hr />
             <div className="botvac">
                 <button className="btnvac" onClick={vaciarCarrito}>Vaciar Carrito</button>
+            </div>
+            <hr />
+            <div className="boterm">
+                <Link onClick={close} className="btnterm" to="/checkout">Terminar mi compra</Link>
             </div>
         </div>
     )
