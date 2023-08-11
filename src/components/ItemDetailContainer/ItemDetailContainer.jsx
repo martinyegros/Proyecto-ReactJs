@@ -4,6 +4,7 @@ import { ItemDetail } from "../ItemDetail/ItemDetail";
 import { Loader } from "../Loader/Loader";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../../firebase/config";
+import { ProductoNoEncontrado } from "../ProductoNoEncontrado/ProductoNoEncontrado";
 
 export const ItemDetailContainer = () => {
     const [item, setItem] = useState(null)
@@ -26,6 +27,14 @@ export const ItemDetailContainer = () => {
             .catch(e => console.log(e))
             .finally(() => setLoading(false))
     }, [])
+
+    if (item) {
+        if (item.descripcion == undefined){
+            return (
+                <ProductoNoEncontrado />
+            )
+        }
+    }
 
     return (
         <div>

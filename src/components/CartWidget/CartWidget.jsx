@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
 import logoCarrito from "../../assets/vegetales.png";
-import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 import { CartView } from "../CartView/CartView";
 

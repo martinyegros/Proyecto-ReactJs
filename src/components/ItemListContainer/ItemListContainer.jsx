@@ -43,7 +43,7 @@ const ItemListContainer = () => {
             .catch(e => console.log(e))
             .finally(() => setLoading(false))
     }, [categoryId])
-
+    
     return (
         <div ref={ref}>
             {

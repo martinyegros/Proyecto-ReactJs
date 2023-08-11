@@ -1,7 +1,6 @@
-import { useContext } from "react"
-import { useState } from "react"
+import { useContext, useState } from "react"
 import { CartContext } from "../../context/CartContext"
-import { collection, addDoc } from "firebase/firestore"
+import { collection, addDoc, writeBatch, query, where, documentId, getDocs } from "firebase/firestore"
 import { db } from "../../firebase/config"
 import { Link } from "react-router-dom"
 
@@ -9,6 +8,8 @@ export const Checkout = () => {
     const { cart, totalCompra, vaciarCarrito } = useContext(CartContext)
 
     const [orderId, setOrderId] = useState(null)
+
+    const [loading, setLoading ] = useState(false)
 
     const [values, setValues] = useState({
         nombre: '',
@@ -23,46 +24,52 @@ export const Checkout = () => {
         })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
+        setLoading(true)
 
-        /* if (values.nombre !== '' && values.direccion !== '' && values.email !== '') {
-            console.log(values)
-        } else {
-            alert('Hay algún campo incompleto')
-        } */
-
-        const orden = {
-            cliente: values,
-            items: cart.map(item => ({id: item.id, precio: item.precio, cantidad: item.cantidad, nombre: item.nombre})),
-            total: totalCompra(),
-            fyh: new Date()
-        }
-        
-        orden.items.forEach(item => {
-            const docRef = doc(db, "productos", item.id)
-            getDoc(docRef)
-                .then((doc) => {
-                    const stock = doc.data().stock
-
-                    if (stock >= item.cantidad) {
-                        updateDoc(docRef, {
-                            stock: stock - item.cantidad
-                        })
-                    } else {
-                        alert("No hay stock de " + item.nombre)
-                    }
-                }) 
-        });
-
-        /* const ordenesRef = collection(db, "ordenes")
-
-        addDoc(ordenesRef, orden)
-            .then((doc) => {
-                console.log(doc.id)
+        if (values.nombre !== '' && values.direccion !== '' && values.email !== '') {
+            const orden = {
+                cliente: values,
+                items: cart.map(item => ({id: item.id, precio: item.precio, cantidad: item.cantidad, nombre: item.nombre})),
+                total: totalCompra(),
+                fyh: new Date()
+            }
+    
+            const batch = writeBatch(db)
+            const ordenesRef = collection(db, "ordenes")
+            const productosRef = collection(db, "productos")
+            const q = query(productosRef, where(documentId(), "in", cart.map(item => item.id)))
+            
+            const productos = await getDocs(q)
+            const sinStock = []
+    
+            productos.docs.forEach((doc) => {
+                const item = cart.find(prod => prod.id === doc.id)
+                const stock = doc.data().stock
+    
+                if (stock >= item.cantidad) {
+                    batch.update(doc.ref, {
+                        stock: stock - item.cantidad
+                    })
+                } else {
+                    sinStock.push(item)
+                }
+            })
+    
+            if (sinStock.length === 0) {
+                await batch.commit()
+                const doc = await addDoc(ordenesRef, orden)
+    
                 vaciarCarrito()
                 setOrderId(doc.id)
-            }) */
+            } else {
+                alert("No hay stock")
+            }
+        } else {
+            alert('Hay algún campo incompleto')
+        }
+        setLoading(false)
     }
 
     if (orderId) {
@@ -86,7 +93,7 @@ export const Checkout = () => {
                 <input onChange={handleInputChange} value={values.nombre} type="text" placeholder="Nombre" name="nombre"/>
                 <input onChange={handleInputChange} value={values.direccion} type="text" placeholder="Dirección" name="direccion"/>
                 <input onChange={handleInputChange} value={values.email} type="email" placeholder="Tú email" name="email"/>
-                <button>Enviar</button>
+                <button disabled={loading}>Enviar</button>
             </form>
         </div>
     )
