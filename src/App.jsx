@@ -9,6 +9,9 @@ import { CartProvider } from "./context/CartContext";
 import { CartView } from "./components/CartView/CartView";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import { Checkout } from "./components/Checkout/Checkout";
+import { Contacto } from "./components/Contacto/Contacto";
+import { MediosDePago } from "./components/MediosDePago/MediosDePago";
+import { Entregas } from "./components/Entregas/Entregas";
 
 function App() {
 
@@ -27,8 +30,9 @@ function App() {
           <Route path="/" element={ <Inicio /> }/>
           <Route path="/cart" element={ <CartView /> }/>
           <Route path="/checkout" element={ <Checkout /> } />
-          {/* <Route path="/información" element={}/>
-          <Route path="/contacto" element={}/> */}
+          <Route path="/mediosdepago" element={ <MediosDePago />}/>
+          <Route path="/entrega-envios" element={ < Entregas />}/>
+          <Route path="/contacto" element={ <Contacto />}/>
         </Routes>
 
         <Footer />

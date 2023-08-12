@@ -29,9 +29,9 @@ export const ItemDetail = ({item}) => {
 
                     {
                         isInCart(item.id)
-                            ? <div className="btnscard"><ItemCount max={item.stock} cantidad={cantidad} setCantidad={setCantidad} agregar={handleAgregar}/></div>
+                            ? ""
                             : <div className="btnscard"><ItemCount max={item.stock} cantidad={cantidad} setCantidad={setCantidad} agregar={handleAgregar}/></div>
-                    }
+                            }
                 </div>
             </div>
         </div>

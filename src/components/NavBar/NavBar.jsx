@@ -2,6 +2,7 @@ import { CartWidget } from "../CartWidget/CartWidget.jsx";
 import logoMarca from "../../assets/Marveg.jpg";
 import { Menu } from "../Menu/Menu.jsx";
 import { Link } from 'react-router-dom';
+import { MenuInfo } from "../MenuInfo/MenuInfo.jsx";
 
 export const NavBar = () => {
 
@@ -15,7 +16,7 @@ export const NavBar = () => {
                 <nav className="navbar">
                     <Link className="navbar-link" to="/">INICIO</Link>
                     <Menu />
-                    <Link className="navbar-link" to="/información">INFORMACIÓN</Link>
+                    <MenuInfo />
                     <Link className="navbar-link" to="/contacto">CONTACTO</Link>
                 </nav>
 
