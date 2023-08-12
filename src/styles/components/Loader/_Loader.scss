@@ -1,5 +1,5 @@
 .load{
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.9);
     position: fixed;
     inset: 0;
     width: 100%;
@@ -7,13 +7,8 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    h2 {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 200%;
-        line-height: 100%;
-        text-align: center;
-        color: #13311e;
-        font-family: "Roboto", sans-serif;
+    img {
+        width: 120px;
+        height: 120px;
     }
 }
