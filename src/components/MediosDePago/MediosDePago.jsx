@@ -1,25 +1,18 @@
-
 export const MediosDePago = () => {
 
     return(
-        <div>
-            <div>
+        <div className="contmed">
+            <div className="titmed">
                 <h2>MEDIOS DE PAGO</h2>
             </div>
-            <div>
+            <div className="titmed2">
                 <h3>Aceptamos todas las tarjetas de crédito y débito</h3>
             </div>
-            <div>
+            <div className="list2">
                 <ul>
-                    <li>
-                        <p>Tambien se puede hacer deposito por Rapipago y Pago Fácil</p>
-                    </li>
-                    <li>
-                        <p>Efectivo al momento de la entrega o retiro</p>
-                    </li>
-                    <li>
-                        <p>Transferencia bancaria</p>
-                    </li>
+                    <li>También se puede hacer depósito por Rapipago y Pago Fácil</li>
+                    <li>Efectivo al momento de la entrega o retiro</li>
+                    <li>Transferencia bancaria</li>
                 </ul>
             </div>
         </div>

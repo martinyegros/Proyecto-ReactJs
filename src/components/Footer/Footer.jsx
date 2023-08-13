@@ -7,7 +7,6 @@ import logoCabal from "../../assets/cabal.png";
 import logoMaestro from "../../assets/maestro.png";
 import logoPagof from "../../assets/pagofacil.png";
 import logoRapi from "../../assets/rapipago.png";
-import logoCorreo from "../../assets/correoarg.png";
 import logoInstagram from "../../assets/instagram.png";
 import logoFacebook from "../../assets/facebook.png";
 
@@ -31,18 +30,12 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="foot-2">
-                    <h4 className="titf2">Medios de Envío</h4>
-                    <div className="logos2">
-                        <img src={logoCorreo} alt="Logo de Correo Argentino" />
-                    </div>
-                </div>
-                <div className="foot-3">
                     <h4 className="titf3">Contacto</h4>
                     <p>marveg@mail.com</p>
                     <p>4444-4444</p>
                 </div>
             </div>
-            <div className="foot-4">
+            <div className="foot-3">
                 <div className="logos4">
                     <a href="https://instagram.com/" target="_blank">
                         <img src={logoInstagram} alt="Logo de Instagram" />
@@ -50,6 +43,10 @@ export const Footer = () => {
                     <a href="http://es-la.facebook.com/" target="_blank">
                         <img src={logoFacebook} alt="Logo de Facebook" />
                     </a>
+                </div>
+                <div className="creado">
+                    <p>Copyright © 2023</p>
+                    <p>Creado por Martin Yegros</p>
                 </div>
             </div>
         </footer>

@@ -1,38 +1,22 @@
-
-
 export const Entregas = () => {
 
     return(
-        <div>
-            <div>
+        <div className="content">
+            <div className="titentr">
                 <h2>ENTREGAS/EVIOS</h2>
             </div>
-            <div>
+            <div className="titentr2">
                 <h3>Hacemos entregas en varios puntos de zona oeste:</h3>
             </div>
-            <div>
+            <div className="list1">
                 <ul>
-                    <li>
-                        <p>Isidro Casanova</p>
-                    </li>
-                    <li>
-                        <p>San justo</p>
-                    </li>
-                    <li>
-                        <p>Laferrere</p>
-                    </li>
-                    <li>
-                        <p>Morón</p>
-                    </li>
-                    <li>
-                        <p>Ramos Mejía</p>
-                    </li>
-                    <li>
-                        <p>González Catán</p>
-                    </li>
-                    <li>
-                        <p>Rafael Castillo</p>
-                    </li>
+                    <li>Isidro Casanova</li>
+                    <li>San justo</li>
+                    <li>Laferrere</li>
+                    <li>Morón</li>
+                    <li>Ramos Mejía</li>
+                    <li>González Catán</li>
+                    <li>Rafael Castillo</li>
                 </ul>
             </div>
         </div>

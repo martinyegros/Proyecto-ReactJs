@@ -76,16 +76,18 @@ export const Checkout = () => {
             <div className="cont-check" >
                 <h2>Tú compra se registró exitosamente!</h2>
                 <hr />
-                <p>Tu código de órden de compra es: <strong>{orderId}</strong></p>
+                <p className="cods">Tu código de órden de compra es: <strong>{orderId}</strong></p>
 
-                <Link to="/">Volver</Link>
+                <div className="volvf">
+                    <Link className="btnvol" to="/">Volver</Link>
+                </div>
             </div>
         )
     }
 
     return(
         <div className="cont-check">
-            <h2>Checkout</h2>
+            <h2>CHECKOUT</h2>
             <hr />
 
             <Formik
@@ -98,15 +100,17 @@ export const Checkout = () => {
                 validationSchema={schema}
             >
                 {() => (
-                    <Form>
-                        <Field placeholder="Nombre" type="text" name="nombre"/>
-                        <ErrorMessage name="nombre" component="p"/>
-                        <Field placeholder="Dirección" type="text" name="direccion"/>
-                        <ErrorMessage name="direccion" component="p"/>
-                        <Field placeholder="Email" type="email" name="email"/>
-                        <ErrorMessage name="email" component="p"/>
-                        <button disabled={loading}>Enviar</button>
-                    </Form>
+                    <div className="forms">
+                        <Form className="form1">
+                            <Field className="f1" placeholder="Nombre" type="text" name="nombre"/>
+                            <ErrorMessage className="f2" name="nombre" component="p"/>
+                            <Field className="f1" placeholder="Dirección" type="text" name="direccion"/>
+                            <ErrorMessage className="f2" name="direccion" component="p"/>
+                            <Field className="f1" placeholder="Email" type="email" name="email"/>
+                            <ErrorMessage className="f2" name="email" component="p"/>
+                            <button className="btnform" disabled={loading}>Enviar</button>
+                        </Form>
+                    </div>
                 )}
             </Formik>
         </div>

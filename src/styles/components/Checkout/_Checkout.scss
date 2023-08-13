@@ -1,3 +1,98 @@
 .cont-check {
+    width: 100%;
     padding-top: 75px;
+    background-color: #9fc16c;
+    h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 160%;
+        line-height: 100%;
+        color: #2f5432;
+        font-family: "Roboto", sans-serif;
+        padding: 10px;
+        text-align: center;
+    }
+    .cods {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100%;
+        line-height: 100%;
+        color: #13311e;
+        font-family: "Poppins", sans-serif;
+        padding: 10px;
+        text-align: center;
+    }
+    .volvf {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        .btnvol {
+            width: 100px;
+            height: 40px;
+            box-sizing: border-box;
+            border: 3px solid black;
+            border-radius: 20px;
+            background: #13311e;
+            font-family: "Poppins", sans-serif;
+            font-size: 100%;
+            color: #f9fd98;
+            text-decoration: none;
+            text-align: center;
+            padding: 5px;
+        }
+    }
+    .forms {
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .form1 {
+            text-align: center;
+            width: 400px;
+            .f1 {
+                width: 400px;
+                height: 40px;
+                background: white;
+                border-radius: 10px;
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 160%;
+                line-height: 100%;
+                font-family: "Roboto", sans-serif;
+                padding: 10px;
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .f2 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 100%;
+                line-height: 100%;
+                color: #2f5432;
+                font-family: "Roboto", sans-serif;
+                padding: 10px;
+                text-align: center;
+                padding: 10px;
+            }
+            .btnform {
+                width: 100px;
+                height: 40px;
+                box-sizing: border-box;
+                border: 3px solid black;
+                border-radius: 20px;
+                background: #13311e;
+                font-family: "Poppins", sans-serif;
+                font-size: 100%;
+                color: #f9fd98;
+                text-decoration: none;
+                margin-top: 10px;
+            }
+        }
+        
+    }
 }
