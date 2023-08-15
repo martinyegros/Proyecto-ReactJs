@@ -1,4 +1,3 @@
-
 export const ItemCount = ({max, cantidad, setCantidad, agregar}) => {
 
     const handleRestar = () => {

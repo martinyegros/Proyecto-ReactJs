@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { ItemList } from "../ItemList.jsx/ItemList";
 import { useParams } from "react-router-dom";
 import { Loader } from "../Loader/Loader";
-import ImagProd from "../../assets/productos.jpeg";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "../../firebase/config";
 
@@ -51,9 +50,9 @@ const ItemListContainer = () => {
                 ? <Loader/>
                 : <>
                 <div className="dprod1">
-                    <h1>PRODUCTOS</h1>
-                    <img src={ImagProd} alt="Imagen de productos" />
-
+                    <div className="titprod">
+                        <h1>PRODUCTOS</h1>
+                    </div>
                     <div className="catalogo-container">
                         <ItemList productos={productos}/>
                     </div>

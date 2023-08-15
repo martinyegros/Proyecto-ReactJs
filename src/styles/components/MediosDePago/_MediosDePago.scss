@@ -1,14 +1,14 @@
 .contmed {
     width: 100%;
+    height: 800px;
     padding-top: 75px;
-    background-color: #f9fd98;
+    background-image: url(.././assets/informacion.jpg);
+    background-size: cover;
     .titmed {
         width: 100%;
         height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         h2 {
+            padding-top: 200px;
             color: #5e854a;
             font-style: normal;
             font-weight: 900;
@@ -44,11 +44,12 @@
     }
     .titmed2 {
         width: 100%;
-        height: 25px;
+        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
         h3{
+            padding-top: 50px;
             color: #2f5432;
             font-style: normal;
             font-weight: 400;
@@ -61,8 +62,9 @@
     .list2 {
         width: 100%;
         text-align: center;
+        height: 200px;
         ul {
-            padding: 40px;
+            padding: 0px 30px 60px 30px;
             li {
                 color: #13311e;
                 font-style: normal;

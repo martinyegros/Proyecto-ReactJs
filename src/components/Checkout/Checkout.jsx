@@ -1,4 +1,5 @@
 import { useContext, useState } from "react"
+import logoCheck from "../../assets/comprav.png"
 import { CartContext } from "../../context/CartContext"
 import { collection, addDoc, writeBatch, query, where, documentId, getDocs } from "firebase/firestore"
 import { db } from "../../firebase/config"
@@ -74,9 +75,12 @@ export const Checkout = () => {
     if (orderId) {
         return(
             <div className="cont-check" >
-                <h2>Tú compra se registró exitosamente!</h2>
-                <hr />
-                <p className="cods">Tu código de órden de compra es: <strong>{orderId}</strong></p>
+                <h2 className="tich">Tú compra se registró exitosamente!</h2>
+                <div className="checkimg">
+                    <img src={logoCheck} alt="logo de frutas" />
+                </div>
+                <p className="cods">Gracias!</p>
+                <p className="cods">Tu código de orden de compra es: <strong>{orderId}</strong></p>
 
                 <div className="volvf">
                     <Link className="btnvol" to="/">Volver</Link>
@@ -87,8 +91,7 @@ export const Checkout = () => {
 
     return(
         <div className="cont-check">
-            <h2>CHECKOUT</h2>
-            <hr />
+            <h2 className="tich1">CHECKOUT</h2>
 
             <Formik
                 initialValues={{

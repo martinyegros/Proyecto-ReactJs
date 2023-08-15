@@ -1,4 +1,5 @@
 import { useState } from "react"
+import logoTecla from "../../assets/teclado.png"
 import { collection, addDoc, writeBatch } from "firebase/firestore"
 import { db } from "../../firebase/config"
 import { Link } from "react-router-dom"
@@ -11,13 +12,13 @@ const schema = Yup.object().shape({
                 .max(20, "Máximo 20 caracteres")
                 .required("Éste campo es obligatorio"),
     telefono: Yup.number()
-                    .min(8, "El número es demasiado corto")
+                    .min(10000000, "El número es demasiado corto")
                     .required("Éste campo es obligatorio"),
     email: Yup.string()
                 .required("Éste campo es obligatorio")
                 .email("El email es inválido"),
     mensaje: Yup.string()
-                .min(10, "El mensaje es demasiado corto")
+                .min(20, "El mensaje es demasiado corto")
 })
 
 export const Contacto = () => {
@@ -29,7 +30,8 @@ export const Contacto = () => {
         setLoading(true)
 
         const contactos = {
-            cliente: values
+            cliente: values,
+            fyh: new Date()
         }
 
         const batch = writeBatch(db)
@@ -53,46 +55,56 @@ export const Contacto = () => {
     if (contactoId) {
         return(
             <div className="contact" >
-                <h2>Tú mensaje se envió exitosamente!</h2>
-                <hr />
-                <p>Gracias por comunicarte con nosotros</p>
-                <hr />
-                <p>Tu código de mensaje es: <strong>{contactoId}</strong></p>
+                <div className="ticoo2">
+                    <h2 className="tico">Tú mensaje se envió exitosamente!</h2>
+                        <div className="tecimg">
+                    <img src={logoTecla} alt="logo de dos manos con un teclado" />
+                    </div>
+                    <p className="cods1">Gracias por comunicarte con nosotros</p>
+                    <p className="cods1">Tu código de mensaje es: <strong>{contactoId}</strong></p>
 
-                <Link to="/">Volver</Link>
+                    <div className="volvc">
+                        <Link className="btnvol1" to="/">Volver</Link>
+                    </div>
+                </div>
             </div>
         )
     }
 
     return(
         <div className="contact">
-            <h2>Contacto</h2>
-            <hr />
+            <div className="ticoo">
+                <h2 className="tico1">CONTACTO</h2>
+            
 
-            <Formik
-                initialValues={{
-                    nombre: '',
-                    telefono: '',
-                    email: '',
-                    mensaje:''
-                }}
-                onSubmit={handleSubmit}
-                validationSchema={schema}
-            >
-                {() => (
-                    <Form>
-                        <Field placeholder="Nombre" type="text" name="nombre"/>
-                        <ErrorMessage name="nombre" component="p"/>
-                        <Field placeholder="Teléfono" type="number" name="telefono"/>
-                        <ErrorMessage name="telefono" component="p"/>
-                        <Field placeholder="Email" type="email" name="email"/>
-                        <ErrorMessage name="email" component="p"/>
-                        <Field placeholder="Mensaje" type="text" name="mensaje"/>
-                        <ErrorMessage name="mensaje" component="p"/>
-                        <button disabled={loading} type="submit">Enviar</button>
-                    </Form>
-                )}
-            </Formik>
+            
+                <Formik
+                    initialValues={{
+                        nombre: '',
+                        telefono: '',
+                        email: '',
+                        mensaje:''
+                    }}
+                    onSubmit={handleSubmit}
+                    validationSchema={schema}
+                >
+                    {() => (
+                        <div className="forms1">
+                            <Form className="form2">
+                                <Field className="f3" placeholder="Nombre" type="text" name="nombre"/>
+                                <ErrorMessage className="f4" name="nombre" component="p"/>
+                                <Field className="f3" placeholder="Teléfono" type="number" name="telefono"/>
+                                <ErrorMessage className="f4" name="telefono" component="p"/>
+                                <Field className="f3" placeholder="Email" type="email" name="email"/>
+                                <ErrorMessage className="f4" name="email" component="p"/>
+                                <Field className="f5" placeholder="Mensaje" type="text" name="mensaje" component="textarea"/>
+                                <ErrorMessage className="f4" name="mensaje" component="p"/>
+                                <button className="btnform1" disabled={loading} type="submit">Enviar</button>
+                            </Form>
+                        </div>
+                    )}
+                </Formik>
+            </div>
         </div>
     )
 }

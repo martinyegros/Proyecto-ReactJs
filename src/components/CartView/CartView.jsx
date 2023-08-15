@@ -5,7 +5,7 @@ import iconoCerrar from "../../assets/cierre.png"
 import iconoBasura from "../../assets/basura.png"
 import { Link } from "react-router-dom"
 
-export const CartView = ({close}) => {
+export const CartView = ({close, open}) => {
     const { cart, totalCompra, vaciarCarrito, removerDelCarrito } = useContext(CartContext)
 
     if (cart.length === 0) {
@@ -52,7 +52,7 @@ export const CartView = ({close}) => {
             </div>
             <hr />
             <div className="boterm">
-                <Link onClick={close} className="btnterm" to="/checkout">Terminar mi compra</Link>
+                <Link onClick={close} className="btnterm" to="/checkout" >Terminar mi compra</Link>
             </div>
         </div>
     )

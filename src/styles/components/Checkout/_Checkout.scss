@@ -1,16 +1,41 @@
 .cont-check {
     width: 100%;
     padding-top: 75px;
-    background-color: #9fc16c;
-    h2 {
+    height: 800px;
+    background-image: url(.././assets/checkout.jpg);
+    background-size: cover;
+    .tich {
+        height: 250px;
         font-style: normal;
         font-weight: 400;
         font-size: 160%;
         line-height: 100%;
         color: #2f5432;
         font-family: "Roboto", sans-serif;
-        padding: 10px;
+        padding-top: 200px;
         text-align: center;
+    }
+    .tich1 {
+        height: 250px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 300%;
+        line-height: 100%;
+        color: #2f5432;
+        font-family: "Roboto", sans-serif;
+        padding: 150px 50px 0px 50px;
+        text-align: center;
+    }
+    .checkimg {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 120px;
+            height: 120px;
+        }
     }
     .cods {
         font-style: normal;
@@ -19,7 +44,7 @@
         line-height: 100%;
         color: #13311e;
         font-family: "Poppins", sans-serif;
-        padding: 10px;
+        padding: 20px;
         text-align: center;
     }
     .volvf {
@@ -27,7 +52,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 10px;
+        padding: 10px;
         .btnvol {
             width: 100px;
             height: 40px;
@@ -44,6 +69,7 @@
         }
     }
     .forms {
+        height: 250px;
         padding: 20px;
         width: 100%;
         display: flex;
