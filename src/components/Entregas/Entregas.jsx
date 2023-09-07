@@ -3,7 +3,7 @@ export const Entregas = () => {
     return(
         <div className="content">
             <div className="titentr">
-                <h2>ENTREGAS/EVIOS</h2>
+                <h2>ENTREGAS/ENVÍOS</h2>
             </div>
             <div className="titentr2">
                 <h3>Hacemos entregas en varios puntos de zona oeste:</h3>
